@@ -4,6 +4,7 @@ import logo_gen
 app = Flask(__name__)
 #обновление
 
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
