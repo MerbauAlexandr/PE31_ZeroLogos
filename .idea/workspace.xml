@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393d155f-593f-42d9-ba3e-ae1e76f2209b" name="Changes" comment="Добавил код для получения IAM-токена">
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="393d155f-593f-42d9-ba3e-ae1e76f2209b" name="Changes" comment="обновил логику">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/logo_gen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Flask server.Flask (app.py).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
@@ -57,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="PE31_ZeroLogos" type="PythonConfigurationType" factoryName="Python">
       <module name="PE31_ZeroLogos" />
       <option name="ENV_FILES" value="" />
@@ -81,6 +84,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="PE31_ZeroLogos" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728032325503</updated>
-      <workItem from="1728032329201" duration="3559000" />
+      <workItem from="1728032329201" duration="13624000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил код для получения IAM-токена">
       <option name="closed" value="true" />
@@ -108,7 +132,47 @@
       <option name="project" value="LOCAL" />
       <updated>1728034636640</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="обновил логику">
+      <option name="closed" value="true" />
+      <created>1728041151953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728041151953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="обновил логику">
+      <option name="closed" value="true" />
+      <created>1728041217943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728041217943</updated>
+    </task>
+    <task id="LOCAL-00004" summary="обновил логику">
+      <option name="closed" value="true" />
+      <created>1728045093649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728045093649</updated>
+    </task>
+    <task id="LOCAL-00005" summary="обновил логику">
+      <option name="closed" value="true" />
+      <created>1728151725938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728151725938</updated>
+    </task>
+    <task id="LOCAL-00006" summary="обновил логику">
+      <option name="closed" value="true" />
+      <created>1728155226701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728155226701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +191,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил код для получения IAM-токена" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил код для получения IAM-токена" />
+    <MESSAGE value="обновил логику" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновил логику" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PE31_ZeroLogos$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1728155947466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
